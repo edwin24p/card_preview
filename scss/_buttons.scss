@@ -1,0 +1,23 @@
+.btn {
+  position: absolute;
+  bottom: 2rem;
+  border: 2px solid;
+  border-radius: 30px;
+  padding: 0.8rem;
+
+  &--sedan {
+    color: $brightOrange;
+  }
+  &--suv {
+    color: $darkCyan;
+  }
+  &--luxury {
+    color: $veryDarkCyan;
+  }
+
+  &:hover {
+    color: white;
+    background: none;
+    border: 2px solid white;
+  }
+}
